@@ -1,6 +1,6 @@
 # Interactive Map Application
 
-This project is a Django web application that uses **Folium** and **GeoPandas** to create an interactive map that visualizes geographical data stored in GeoJSON files. The application loads multiple shapefiles from a specified directory and displays them on a map using OpenStreetMap tiles.
+This project is a Django web application that uses **Folium** and **GeoPandas** to create an interactive map that visualizes geographical data stored in GeoJSON files. The application loads multiple shapefiles from a specified directory and displays them on a map using OpenStreetMap tiles. The "geemap" name of the main project folder, comes from google eartch engine map which i used initially when created, but at some point I had trouble with gee api and authentication, thus switched to OpenStreetMap tiles to render the background map.
 
 ## Table of Contents
 
