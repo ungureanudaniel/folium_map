@@ -70,9 +70,9 @@ To set up the project locally, follow these steps:
     │   └── gis/                  # Directory containing GeoJSON shapefiles
     │       ├── your-gis-files-in-geojson-format.geojson
     │
-    └── manage.py                  # Django management script
+    ├── manage.py                  # Django management script
     │
-    └── requirements.txt 
+    └── requirements.txt           # the file with required dependencies
 
 
 
