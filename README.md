@@ -71,6 +71,8 @@ To set up the project locally, follow these steps:
     │       ├── your-gis-files-in-geojson-format.geojson
     │
     └── manage.py                  # Django management script
+    │
+    └── requirements.txt 
 
 
 
