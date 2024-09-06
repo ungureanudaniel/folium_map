@@ -1,0 +1,21 @@
+asgiref==3.8.1
+Django==3.2
+pytz==2024.1
+sqlparse==0.5.1
+typing_extensions==4.12.2
+whitenoise
+python-dotenv==0.19.1
+django-ckeditor==6.1.0
+django-resized
+django-simple-captcha>=0.5.14
+requests
+beautifulsoup4
+python-memcached
+pymemcache
+django-hitcount
+pycryptodome
+pyopenssl
+folium
+# earthengine-api
+# pandas
+geopandas

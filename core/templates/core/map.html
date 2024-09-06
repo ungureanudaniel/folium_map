@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Map</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+        #map {
+            height: 90%;
+            width: 100%;
+        }
+        .message {
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <!-- Add any other CSS or JS libraries you need -->
+</head>
+<body>
+
+    <div class="message">
+        {% for message in messages %}
+            <div>{{ message }}</div>
+        {% endfor %}
+    </div>
+    
+    <!-- Container for the Folium map -->
+    <div id="map">
+        {{ map|safe }}
+    </div>
+    
+</body>
+</html>
