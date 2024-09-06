@@ -55,9 +55,13 @@ To set up the project locally, follow these steps:
 ## Directory Structure
 
     ```bash
-    interactive-map-app/
+    geemap/
     │
-    ├── core/                      # Django app containing the main functionality
+    ├── geemap/                   # Django main project folder
+    │   └── settings/             # Main django settings file
+    │   └── the other Django default files/ 
+    │
+    ├── core/                     # Django app containing the main functionality
     │   ├── views.py              # Contains the map rendering logic
     │   └── templates/
     │       └── core/
@@ -65,10 +69,7 @@ To set up the project locally, follow these steps:
     │
     ├── static/
     │   └── gis/                  # Directory containing GeoJSON shapefiles
-    │       ├── pnb_3844_poly.geojson
-    │       ├── ROSCI_0013_3844_poly.geojson
-    │       ├── RO_limits_3844_poly.geojson
-    │       └── UAT_limits_3844_poly.geojson
+    │       ├── your-gis-files-in-geojson-format.geojson
     │
     └── manage.py                  # Django management script
 
