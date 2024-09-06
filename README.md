@@ -54,7 +54,6 @@ To set up the project locally, follow these steps:
 
 ## Directory Structure
 
-    ```bash
     geemap/
     │
     ├── geemap/                   # Django main project folder
